@@ -16,10 +16,6 @@ As per the standard implementation of Mean Teacher, confident detections from a 
 
 ![](hook_figure_1.7.png)
 
-The below figure shows our proposed method for predicting the class ratio of the unlabelled data. CLIP is used to calculate the similarity between the labelled images $X_{l}$ and a series of image classification labels $L$ of the form ``a photo of class $c$". Using the labelled similarity vector $s_{l}$ as a domain invariant representation of semantic context, two linear regression models are fit to predict the number of instances $g(s, \beta_{g})$ and the class ratio $k(s, \beta_{k})$ in each labelled image. To make a prediction for the class ratio of the unlabelled images $X_{u}$, CLIP is used to extract the similarity vectors $s_{u}$. The mean similarity vector $\overline{s_{u}}$ is then calculated and input to the linear regression models to generate two distinct predictions for the class ratio of the entire unlabelled dataset. These predictions are merged by calculating the geometric mean, and the relative change in class ratio squared to account for persistent underestimation.
-
-![](class_ratio_prediction_1.4.PNG)
-
 <!--
 **nhcha6/nhcha6** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
