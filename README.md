@@ -1,4 +1,5 @@
-### Hi there 👋
+# About Me
+Hi, I'm Nic, aPhD student with the QUT Centre for Robotics. I have experience working with emerging robotics and computer science technologies to improve the sustainable management of Australia’s agricultural resources. My current research aims to leverage readily available unlabelled data to improve robotic vision systems when things in the environment change. Robots deployed in the real world will regularly encountered scenarios that differ substantially from what was encountered during development. Ideally, the robot should be able to learn from these novel experiences and improve itself without human intervention. My work is exploring new ways of achieving this, with particular emphasis on using 'common sense' prior knowledge to guide unsupervised learning.
 
 <!--
 **nhcha6/nhcha6** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
