@@ -4,6 +4,8 @@ Hi :wave: I'm Nic, a PhD student with the QUT Centre for Robotics. I am interest
 # Unsupervised Domain Adaptive Object Detection
 Object detection is a crucial component of many robotic systems, from self-driving cars to service robots. Existing object detectors based on deep learning require the collection of large, annotated datasets for training. However, in openworld deployment a robot will encounter changes in object appearance due to factors such as weather, lighting conditions, or image corruptions. Furthermore, shifts in a robot’s deployment environment can impact the likelihood that different objects will occur, termed class distribution shift. Due to the high costs of annotation, it is infeasible to gather labelled data for all potential conditions and environments. Thus, it is inevitable that an object detector deployed on a robot will face the problem of domain shift, where the images being processed do not match those used for training. Unfortunately, the performance of deep learning-based object detectors degrades significantly when facing such domain shift. To address this issue, Unsupervised Domain Adaptive Object Detection (UDA-OD) has been proposed to adapt a model from a known source domain to a shifted target domain using only unlabelled data. This strategy can help the model generalise and improve its performance in the target domain, without the need for expensive labelling.
 
+https://user-images.githubusercontent.com/20634344/236743799-cd223e15-1ae4-4d82-80ad-cfa4cbcdb672.mp4
+
 # Class Distribution Prediction for Reliable Domain Adaptive Object Detection
 
 ## Motivation
